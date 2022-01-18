@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compra</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaQuery.css">
+</head>
+
+<body>
+    <header>
+        <div class="navegacion">
+            <p class="promocion">Consigue un 10% de descuento con nuestra Newsletter!!!</p>
+            <nav>
+                <ul class="navega">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorías<i class="fas fa-angle-down"></i></a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Páginas</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="busqueda">
+            <img class="logo" src="img/logo.png" alt="Logo de la Empresa">
+            <div class="iconos">
+                <form class="busqueda2">
+                    <input type="search" placeholder="Buscar...">
+                    <i class="fas fa-search"></i>
+                </form>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Carrito de Compra</h1>
+        <div class="informacion-completa">
+            <div class="primera-parte">
+                <div class="item-contenedor">
+                    <div class="item">
+                        <div class="titulo">
+                            <p>Producto</p>
+                            <p>Precio</p>
+                        </div>
+                        <div class="info-producto">
+                            <div class="info-producto-img">
+                                <img src="img/gorra-gris.webp" alt="Gorra Gris">
+                                <p>Gorra Gris</p>
+                            </div>
+                            <p>109€</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="titulo">
+                            <p>Cantidad</p>
+                            <p>Subtotal</p>
+                        </div>
+                        <div class="info-cantidad">
+                            <div class="info-cantidad-contador">
+                                <span>-</span>
+                                <p>1</p>
+                                <span>+</span>
+                            </div>
+                            <p>109€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="iconos-edicion">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                </div>
+                <div class="descuento">
+                    <input placeholder="Código Descuento...">
+                    <button>Aplicar Descuento</button>
+                </div>
+            </div>
+            <div class="segunda-parte">
+                <h3>Resumen de Compra</h3>
+                <div class="total-del-pedido">
+                    <div class="precio-final-titulo">
+                        <p>Subtotal</p>
+                        <p>IVA</p>
+                        <p>TOTAL</p>
+                    </div>
+                    <div class="precio-final-cantidad">
+                        <p>109€</p>
+                        <p>22,89€</p>
+                        <p>109€</p>
+                    </div>
+
+                </div>
+                <a href="#"><button>Seguir con el Pedido -></button>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="primero">
+            <div class="tarjeta">
+                <h3>Información de Contacto</h3>
+                <div class="tarjetita">
+                    <div class="icono"><i class="fas fa-map-marked-alt"></i></div>
+                    <p><span>Dirección </span>Calle Gran Vía, 54, Madrid</p>
+                </div>
+                <div class="tarjetita">
+                    <div class="icono"><i class="fas fa-phone-alt"></i></div>
+                    <p><span>Teléfono </span>+34.91.877.98.74</p>
+                </div>
+                <div class="tarjetita">
+                    <div class="icono"><i class="far fa-envelope"></i></div>
+                    <p><span>Email</span>mail@man-fashion.com</p>
+                </div>
+            </div>
+            <div class="tarjeta2 tarjeta">
+                <h3>Sobre Nosotros</h3>
+                <div class="icono-info">
+                    <i class="fas fa-chevron-right"></i>
+                    <p>Conócenos</p>
+                </div>
+                <div class="icono-info">
+                    <i class="fas fa-chevron-right"></i>
+                    <p>Contáctanos</p>
+                </div>
+                <div class="icono-info">
+                    <i class="fas fa-chevron-right"></i>
+                    <p>Mi Cuenta</p>
+                </div>
+                <div class="icono-info">
+                    <i class="fas fa-chevron-right"></i>
+                    <p>Pedidos</p>
+                </div>
+            </div>
+            <div class="tarjeta3 tarjeta">
+                <h3>Newsletter</h3>
+                <p>Consigue informarte de lo último siempre.
+                    Rebajas y Ofertas.
+                    Regístrate en nuestra Newsletter.
+                </p>
+                <input type="email" placeholder="tu email...">
+                <input type="button" value="Suscribirme">
+
+            </div>
+        </div>
+        <div class="segundo">
+            <i class="far fa-copyright"> Man-Fashion 2021. Todos los Derechos Reservado.</i>
+            <div class="rrss">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitch"></i>
+                <i class="fab fa-tiktok"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
